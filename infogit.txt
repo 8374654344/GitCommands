@@ -18,3 +18,9 @@ git push origin master
 git log
 git show "comit id min 6 or 7 chars"
 git ls-files
+
+
+to clone repo
+============================
+
+git clone "url of github repo" "folder where we have to clone"
