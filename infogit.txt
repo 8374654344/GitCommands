@@ -24,3 +24,11 @@ to clone repo
 ============================
 
 git clone "url of github repo" "folder where we have to clone"
+
+make the changes in files which is required
+
+run "git status"
+git diff
+git add .
+git commit -m "commit message"
+git push origin master
