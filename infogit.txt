@@ -1,0 +1,9 @@
+git init
+git config --global user.name "8374654344"
+git config --global user.email rameshgongura@gmail
+git remote add origin "url for git hub repo"
+git remote -v
+git push origin master
+git log
+git show "comit id min 6 or 7 chars"
+git ls-files
