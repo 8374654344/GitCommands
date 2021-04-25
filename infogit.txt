@@ -1,6 +1,17 @@
-git init
+create repository in github first
+=================================
+create folder ex:- mkdir gitInfo
+cd gitInfo
+run the command "git init"
+by this we can get ".git" folder in local repo
+==================
+set configuration
+==================
 git config --global user.name "8374654344"
 git config --global user.email rameshgongura@gmail
+=========================================================
+add remote master branch to local with alias name origin
+=========================================================
 git remote add origin "url for git hub repo"
 git remote -v
 git push origin master
