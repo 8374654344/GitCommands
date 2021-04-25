@@ -14,9 +14,11 @@ git config --global user.email rameshgongura@gmail
 add remote master branch to local with alias name origin
 =========================================================
 git remote add origin "url for git hub repo"
+[git remote rm origin] => to remove origin from local
 git remote -v
 git push origin master
 git log
+git log --oneline
 git show "comit id min 6 or 7 chars"
 git ls-files
 
@@ -34,3 +36,71 @@ git diff
 git add .
 git commit -m "commit message"
 git push origin master
+=================================================================
+
+branching
+=============================================
+git branch --list => it will show the list of branches
+git branch -a | --all => it will show the all local and remote branches
+git branch -r => it will show the all remote branches
+============================================================
+
+to create new branch
+===========================================
+git branch [branch name] => it creates the new branch
+git checkout [branch name] => we are in the branch which we have to work
+
+
+after make some changes in new branch
+====================================================
+git add . and git commit 
+
+
+=============================
+to remove remote origin from local
+===================================
+git remote rm origin
+
+git branch old_branch
+git branch -d old_branch (delete from local)
+git push origin --delete old_branch(delete from remote)
+=========================================================
+git branch new_branch
+git branch
+git push origin new_branch
+========================================================
+git checkout -b old_branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
